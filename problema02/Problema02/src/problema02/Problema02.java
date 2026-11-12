@@ -97,7 +97,7 @@ public class Problema02 {
 
             System.out.println("\n===== REPORTE DEL PEAJE =====");
 
-            System.out.printf("Peaje: Buena Via%n");
+            System.out.printf("Peaje: Buena Via");
             System.out.printf("Propietario: %s%n", propietario);
             System.out.printf("Tipo: %s%n", tipoVehiculo);
             System.out.printf("Avaluo: $%.2f%n", avaluo);
