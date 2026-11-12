@@ -104,9 +104,9 @@ public class Problema01_2 {
                     + "que el segundo para realizar la operación.");
         }
 
-        entrada.close();
     }
-}
+}    
+
    
     
 

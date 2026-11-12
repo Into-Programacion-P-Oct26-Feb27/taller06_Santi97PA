@@ -67,7 +67,6 @@ public class Problema02 {
         if (tipo >= 1 && tipo <= 4) {
             
             valorBase = (avaluo * porcentaje) + valorFijo;
-
           
             if ((tipo == 1 || tipo == 2) && avaluo > 30000) {
                 recargo = 1.50;

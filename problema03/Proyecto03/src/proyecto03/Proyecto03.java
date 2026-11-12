@@ -20,6 +20,7 @@ public class Proyecto03 {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
+        
         String nombre = "";
         int tipoEmpleado = 0;
         int anosServicio = 0;
@@ -29,7 +30,6 @@ public class Proyecto03 {
         double bonificacion = 0;
         double incrementoSalarial = 0;
         double nuevoSueldo = 0;
-
         
         System.out.print("Ingrese el nombre del empleado: ");
         nombre = entrada.nextLine();
@@ -42,7 +42,6 @@ public class Proyecto03 {
 
         System.out.print("Ingrese el sueldo inicial: ");
         sueldoInicial = entrada.nextDouble();
-
         
         switch (tipoEmpleado) {
             case 1:
@@ -66,7 +65,6 @@ public class Proyecto03 {
                 porcentajeEntero = 15;
                 break;
         }
-
         
         if (anosServicio < 2) {
             bonificacion = 0.0;
@@ -77,11 +75,9 @@ public class Proyecto03 {
         } else {
             bonificacion = 100.0;
         }
-
         
         incrementoSalarial = sueldoInicial * porcentajeIncremento;
         nuevoSueldo = sueldoInicial + incrementoSalarial + bonificacion;
-
         
         System.out.printf("\nREPORTE DE INCREMENTO SALARIAL\n\n"
                         + "Empleado: %s\n"
