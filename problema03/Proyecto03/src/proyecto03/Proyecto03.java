@@ -96,7 +96,6 @@ public class Proyecto03 {
                 incrementoSalarial, 
                 bonificacion, 
                 nuevoSueldo);
-
        
     }
 }

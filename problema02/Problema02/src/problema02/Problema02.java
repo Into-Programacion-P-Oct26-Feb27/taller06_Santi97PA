@@ -86,8 +86,6 @@ public class Problema02 {
 
         } else {
             System.out.printf("%nError: Tipo de vehículo no válido.%n");
-        }
-
-      
+        }      
     }
 }

@@ -96,8 +96,7 @@ public class Problema01 {
         } else {
             System.out.println("\nError: El primer número debe ser mayor que el segundo para realizar la operación.");
         }
-
-        entrada.close();
+       
     }
 }
 
